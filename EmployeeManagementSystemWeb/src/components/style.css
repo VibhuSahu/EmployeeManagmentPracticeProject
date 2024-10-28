@@ -1,0 +1,15 @@
+/* Add this to your CSS file */
+
+nav {
+    position: absolute; /* Position it below the navbar */
+    top: 64px; /* Adjust based on navbar height */
+    left: 0; /* Align with the left side */
+    right: 0; /* Stretch to the right */
+    z-index: 40; /* Ensure it appears above other content */
+  }
+  
+  nav a {
+    display: block; /* Make links block elements */
+    text-align: left; /* Align text to the left */
+  }
+  
